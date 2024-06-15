@@ -6,7 +6,7 @@
       <img
         src="../assets/logo.svg"
         class="max-w-[90vw]"
-        alt="Frameplay Production Logo"
+        alt="Frameplay Production Logo Svg"
       />
       <div class="flex flex-col items-center">
         <h1 class="text-style-1 leading-relaxed font-semibold text-c-1 pb-6">
