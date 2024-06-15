@@ -4,7 +4,7 @@
       class="h-full w-full flex flex-col items-center justify-between pt-[16vh] pb-[8vh]"
     >
       <img
-        src="../assets/logo.svg"
+        src="../assets/main-logo.svg"
         class="max-w-[90vw]"
         alt="Frameplay Production Logo Svg"
       />
