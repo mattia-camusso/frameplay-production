@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: "Montserrat", sans-serif;
+  --cubic-bezier: cubic-bezier(0.8, 0.12, 0.05, 0.88);
+  --color-1: #f9f9f9;
+  --color-2: #060606;
+  --color-3: #808080;
+  --color-4: #eb9412;
+  --color-overlay: rgba(6, 6, 6, 0.4);
+}
+
+* {
+  scroll-behavior: smooth;
+  overflow-x: clip;
+}
+
+@layer base {
+  body {
+    @apply font-sans text-base;
+    font-weight: 400;
+    scrollbar-width: thin;
+    line-height: normal;
+    scrollbar-base-color: var(--color-3);
+    scrollbar-color: var(--color-2) transparent;
+  }
+}
+
+.text-style-1 {
+  font-size: clamp(1.5rem, 2.5vw, 4rem);
+}
+.text-style-2 {
+  font-size: clamp(0.6rem, 1vw, 3rem);
+}
+.text-style-3 {
+  font-size: clamp(1rem, 1.3vw, 3.2rem);
+}
+.text-style-4 {
+  font-size: clamp(0.9rem, 2vw, 3.4rem);
+}
+
+.text-style-big {
+  font-size: clamp(2.5rem, 4.5vw, 5rem);
+}
+
+.text-style-not-big {
+  font-size: clamp(1.6rem, 4.5vw, 5rem);
+}
+
+.text-style-bigger {
+  font-size: clamp(3rem, 7vw, 7vw);
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-3);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-4);
+  border-radius: 20px;
+  border: transparent;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  @apply text-c-1;
+  @apply bg-c-4;
+}
+
+::selection {
+  @apply text-c-1;
+  @apply bg-c-4;
+}
+
+.social-link {
+  cursor: pointer;
+  transition: all 0.4s var(--cubic-bezier);
+}
+
+.social-link:hover {
+  transform: scale(1.2);
+}
+
+.rotate-45 {
+  @apply rotate-[45deg];
+}
+
+.rotate-90 {
+  @apply rotate-[90deg];
+}
+
+.rotate-135 {
+  @apply rotate-[135deg];
+}
+
+.rotate-180 {
+  @apply rotate-[180deg];
+}
+
+.rotate-225 {
+  @apply rotate-[225deg];
+}
+
+.rotate-270 {
+  @apply rotate-[270deg];
+}
+
+.rotate-315 {
+  @apply rotate-[315deg];
+}
+
+.rotate-360 {
+  @apply rotate-[360deg];
+}
+
+.-rotate-45 {
+  @apply rotate-[-45deg];
+}
+
+.-rotate-90 {
+  @apply rotate-[-90deg];
+}
+
+.-rotate-135 {
+  @apply rotate-[-135deg];
+}
+
+.-rotate-180 {
+  @apply rotate-[-180deg];
+}
+
+.-rotate-225 {
+  @apply rotate-[-225deg];
+}
+
+.-rotate-270 {
+  @apply rotate-[-270deg];
+}
+
+.-rotate-315 {
+  @apply rotate-[-315deg];
+}
+
+.-rotate-360 {
+  @apply rotate-[-360deg];
+}
