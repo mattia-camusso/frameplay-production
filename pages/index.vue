@@ -13,7 +13,10 @@
           WORK IN PROGRESS...
         </h1>
         <div class="flex w-full justify-evenly">
-          <a href="" class="social-link"
+          <a
+            href="mailto:production@frameplayvideo.com"
+            target="_blank"
+            class="social-link"
             ><!-- <Email></Email> -->
             <img
               src="../assets/mail.svg"
@@ -21,7 +24,11 @@
               class="h-8 md:h-10 lg:h-12 3xl:h-16"
             />
           </a>
-          <a href="" class="social-link">
+          <a
+            href="https://www.linkedin.com/company/frameplay-production"
+            target="_blank"
+            class="social-link"
+          >
             <!-- <Linkedin></Linkedin> -->
             <img
               src="../assets/linkedin.svg"
