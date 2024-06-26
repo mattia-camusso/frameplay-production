@@ -21,12 +21,19 @@
 @layer base {
   body {
     @apply font-sans text-base;
+    background-color: var(--color-2);
+    color: var(--color-1);
     font-weight: 400;
     scrollbar-width: thin;
     line-height: normal;
     scrollbar-base-color: var(--color-3);
     scrollbar-color: var(--color-2) transparent;
   }
+}
+
+.base-text {
+  @apply tracking-wide;
+  @apply font-semibold;
 }
 
 .text-style-1 {
