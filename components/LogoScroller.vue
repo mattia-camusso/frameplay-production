@@ -67,7 +67,6 @@ const addAnimation = () => {
 }
 
 .scroller-inner {
-  padding-block: 2rem;
   flex-wrap: wrap;
   display: flex;
   gap: 1rem;
@@ -78,13 +77,7 @@ const addAnimation = () => {
 }
 
 .scroll-item {
-  padding: 1rem 2rem;
-  border-radius: 5px;
-  font-size: 1.3rem;
-  font-weight: 700;
-  letter-spacing: -1%;
-  line-height: 1.2;
-  text-align: center;
+  padding: 0 2rem;
 }
 
 .img {

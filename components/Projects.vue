@@ -1,8 +1,33 @@
 <template>
-  <div class="min-h-svh">helo</div>
+  <div class="project-layout px-12 py-64">
+    <div v-for="project in projects">
+      <img
+        :src="project.cover"
+        :alt="project.title"
+        :class="`aspect-[${project.aspectRatio}]`"
+        class="project-item grayscale hover:grayscale-0 transition-all duration-300 ease-linear"
+      />
+    </div>
+  </div>
   <LogoScroller></LogoScroller>
 </template>
 
-<script lang="ts" setup></script>
+<script lang="js" setup>
+import {projects} from "../constants";
+</script>
 
-<style scoped></style>
+<style scoped>
+.project-layout {
+  list-style: none;
+  column-gap: clamp(1rem, 2vw, 3rem);
+  column-count: 4;
+}
+
+.project-item {
+  width: 40vmax;
+  margin-bottom: clamp(1rem, 2vw, 3rem);
+  box-sizing: border-box;
+  break-inside: avoid;
+  border-radius: 10px;
+}
+</style>
