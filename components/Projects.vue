@@ -1,5 +1,10 @@
 <template>
-  <div class="project-layout px-12 py-64">
+  <div
+    class="absolute top-[40vh] left-[40vw] opacity-0 hover:opacity-100 font-style-big"
+  >
+    <h2>CULO</h2>
+  </div>
+  <div id="projects" class="project-layout px-4 md:px-12 py-32 md:py-64">
     <div v-for="project in projects">
       <img
         :src="project.cover"
@@ -21,6 +26,12 @@ import {projects} from "../constants";
   list-style: none;
   column-gap: clamp(1rem, 2vw, 3rem);
   column-count: 4;
+}
+
+@media screen and (max-width: 768px) {
+  .project-layout {
+    column-count: 3;
+  }
 }
 
 .project-item {

@@ -1,10 +1,10 @@
 <template>
   <div class="w-full flex justify-center">
-    <h3 class="text-c-3 text-style-big">
+    <h3 class="text-c-3 text-style-not-big">
       I NOSTRI <span class="base-text text-c-1">CLIENTI</span>
     </h3>
   </div>
-  <div class="scroller py-16">
+  <div class="scroller md:py-16">
     <div class="tag-list scroller-inner">
       <img
         v-for="el in elems"
@@ -84,5 +84,11 @@ const addAnimation = () => {
   width: 200px;
   object-fit: contain;
   filter: invert(100%);
+}
+
+@media screen and (max-width: 768px) {
+  .img {
+    width: 170px;
+  }
 }
 </style>

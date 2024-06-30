@@ -1,8 +1,8 @@
 <template>
-  <nav class="header w-1/4 flex justify-between">
+  <nav class="header gap-12 md:gap-8 2xl:gap-24 flex w-full justify-center">
     <a href="/" class="item base-text text-style-3">LAVORI</a>
-    <a href="/" class="item base-text text-style-3">ABOUT</a>
-    <a href="/" class="item base-text text-style-3">CONTATTI</a>
+    <a href="/about" class="item base-text text-style-3">ABOUT</a>
+    <a href="/contatti" class="item base-text text-style-3">CONTATTI</a>
   </nav>
 </template>
 
@@ -20,6 +20,7 @@
   display: block;
   text-decoration: none;
   transition: all 400ms var(--cubic-bezier);
+  mix-blend-mode: exclusion;
 }
 
 .item::after {
