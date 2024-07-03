@@ -1,20 +1,16 @@
 <template>
+  <HeaderOther></HeaderOther>
   <main
     class="flex flex-col items-center justify-between contatti backdrop-blur-lg"
   >
-    <div class="h-full w-full flex flex-col items-center justify-between py-8">
-      <HeaderHome class="header"></HeaderHome>
-      <a href="/">
-        <img
-          src="../assets/main-logo.svg"
-          class="w-[80vw] md:w-[35vw] cursor-pointer"
-          alt="Frameplay Production Logo Svg"
-        />
-      </a>
+    <div
+      class="h-full w-full flex flex-grow flex-col items-center justify-between py-8"
+    >
+      <div class="h-1/6"></div>
       <div class="flex flex-col items-center gap-8">
-        <h3 class="text-c-3 text-style-4">EMAIL</h3>
+        <h3 class="text-c-3 font-medium text-style-4">EMAIL</h3>
         <a href="mailto:production@frameplayvideo.com" target="_blank">
-          <h3 class="text-style-4 item">email@frameplay.com</h3>
+          <h3 class="text-style-1 item">email@frameplay.com</h3>
         </a>
       </div>
       <div class="flex w-2/3 pb-8 justify-evenly">

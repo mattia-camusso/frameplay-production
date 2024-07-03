@@ -1,6 +1,6 @@
 export const projects = [
   {
-    id: 1,
+    id: "amazon-photo",
     title: "Amazon Photo",
     fullTitle: "FramePlay x Amazon Photos",
     description: "UGC per campagne pubblicitarie Amazon Photos",
@@ -14,8 +14,8 @@ export const projects = [
     par3: "Il nostro lavoro è consistito nell'utilizzare i video RAW generati dagli utenti e trasformali in contenuti accattivanti e ad alto potenziale di conversione verso gli utenti in target con la campagna pubblicitaria. La sfida principale è stata quella di creare contenuti altamente coinvolgenti che, come scopo ultimo, avessero quello del donwload dell'applicazione",
   },
   {
-    id: 2,
-    title: "PromoTurismoFVG",
+    id: "promo-turismo-fvg",
+    title: "Promo Turismo FVG",
     fullTitle: "FramePlay x PromoTurismoFVG",
     description: "Interviste agli atleti azzurri del Friuli Venezia Giulia",
     aspectRatio: "9/16",
@@ -29,7 +29,7 @@ export const projects = [
     link: "https://www.instagram.com/reel/C6rOAwBN5rc/",
   },
   {
-    id: 3,
+    id: "ale-della-giusta",
     title: "Ale della Giusta",
     fullTitle: "FramePlay x Ale della Giusta",
     description: "In viaggio per l'America con Rhove",
@@ -44,7 +44,7 @@ export const projects = [
     link: "https://www.youtube.com/watch?v=LywaO_ixJes&t=39s",
   },
   {
-    id: 4,
+    id: "spagnol",
     title: "Spagnol",
     fullTitle: "FramePlay x Spagnol",
     description: "Awareness sui social",
@@ -59,7 +59,7 @@ export const projects = [
     link: "https://www.instagram.com/reel/C53GpXBMPDn/",
   },
   {
-    id: 5,
+    id: "bertoja",
     title: "Bertoja",
     fullTitle: "FramePlay x Bertoja",
     description: "Awareness sui social",
@@ -74,7 +74,7 @@ export const projects = [
     link: "https://www.instagram.com/reel/C6QjZWZCikb/",
   },
   {
-    id: 6,
+    id: "hotel-san-michele",
     title: "Hotel San Michele",
     fullTitle: "FramePlay x Hotel San Michele",
     description: "Awareness sui social",
@@ -89,7 +89,7 @@ export const projects = [
     link: "https://www.instagram.com/reel/C7qm690N9AO/",
   },
   {
-    id: 7,
+    id: "area-zenith",
     title: "Area Zenith",
     fullTitle: "FramePlay x Area Zenith",
     description: "Awareness sui social",
@@ -104,7 +104,7 @@ export const projects = [
     link: "https://www.instagram.com/reel/C8OxXuMtaEt/",
   },
   {
-    id: 8,
+    id: "eli-in-crimeland",
     title: "Eli in Crimeland",
     fullTitle: "FramePlay x Eli in Crimeland",
     description: "Editing video YouTube",
@@ -119,7 +119,7 @@ export const projects = [
     link: "https://www.youtube.com/watch?v=uzBrkgoAztg&t=1s",
   },
   {
-    id: 9,
+    id: "ideal-glass",
     title: "Ideal Glass",
     fullTitle: "FramePlay x Ideal Glass",
     description: "Creazione video per advertising",
@@ -133,7 +133,7 @@ export const projects = [
     par3: "L'advertising è uno strumento utilizzato da ormai parecchio tempo da moltissime aziende ma l'advertising video è uno strumento che sta prendendo piede solamente nell'ultimo periodo motivo per il quale l'azienda ha deciso di affidare a noi i suoi lavori per poter creare contenuti di qualità. La sfida più grande di questo lavoro è rappresentata dal creare diverse creatives ad alta conversione in grado di portare quanti più lead qualificati al cliente.",
   },
   {
-    id: 10,
+    id: "kube-fm",
     title: "KubeFm",
     fullTitle: "FramePlay x KubeFm",
     description: "Video interviste KubeCon 2024",
@@ -148,7 +148,7 @@ export const projects = [
     link: "https://www.linkedin.com/posts/kubefm_abdelfettah-senior-developer-advocate-at-ugcPost-7193644417574998016-o39w?utm_source=share&utm_medium=member_desktop",
   },
   {
-    id: 11,
+    id: "stratego-swat",
     title: "StrategoSwat",
     fullTitle: "FramePlay x StrategoSwat",
     description: "Creazione di video ADS e di contenuti organici",
@@ -162,7 +162,7 @@ export const projects = [
     par3: "I progetti svolti nel corso dei mesi per StrategoSwat sono stati molteplici e spaziavano dalla creazione di diverse video ADS fino ad arrivare alla creazione di contenuti studiati per l'organico.",
   },
   {
-    id: 12,
+    id: "davvero-casa",
     title: "DavveroCasa",
     fullTitle: "FramePlay x DavveroCasa",
     description: "Realizzazione video per annunci immobiliari",
@@ -176,7 +176,7 @@ export const projects = [
     par3: "DavveroCasa, per il proprio sito, ci ha chiesto di realizzare alcuni contenuti interattivi per mostrare al meglio le qualità di svariati immobili del valore di centinaia di migliaia o milioni di euro.",
   },
   {
-    id: 13,
+    id: "rosanna-lisco",
     title: "Rosanna Lisco",
     fullTitle: "FramePlay x Rosanna Lisco",
     description:
@@ -191,7 +191,7 @@ export const projects = [
     par3: "La sfida di questo progetto è stata quella di creare contenuti unici che ponessero Rosanna come esperta dell'immobiliare di Torino mantenendo un tono autorevole e professionale ma al contempo dinamico e adatto ai social.",
   },
   {
-    id: 14,
+    id: "endriu-files",
     title: "Endriu Files",
     fullTitle: "FramePlay x Endriu Files",
     description: "Editing video YouTube",

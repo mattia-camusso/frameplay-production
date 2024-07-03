@@ -1,7 +1,7 @@
 <template>
   <div class="w-full flex justify-center">
     <h3 class="text-c-3 text-style-not-big">
-      I NOSTRI <span class="base-text text-c-1">CLIENTI</span>
+      I NOSTRI <span class="text-c-1">CLIENTI</span>
     </h3>
   </div>
   <div class="scroller md:py-16">
