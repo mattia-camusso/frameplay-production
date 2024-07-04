@@ -1,18 +1,18 @@
 <template>
   <header class="header">
-    <a href="/">
+    <a href="/en">
       <img
-        src="../assets/logo.svg"
+        src="../../assets/logo.svg"
         class="md:h-16 hidden md:block logo"
         alt="Frameplay Production Logo"
       />
     </a>
     <nav class="nav-items gap-12 2xl:gap-24 flex justify-center">
-      <a href="/" class="item base-text text-style-3">LAVORI</a>
-      <a href="/about" class="item base-text text-style-3">ABOUT</a>
-      <a href="/contatti" class="item base-text text-style-3">CONTATTI</a>
+      <a href="/en/" class="item base-text text-style-3">PROJECTS</a>
+      <a href="/en/about" class="item base-text text-style-3">ABOUT</a>
+      <a href="/en/contatti" class="item base-text text-style-3">CONTACTS</a>
     </nav>
-    <a href="/en" class="lang base-text text-style-3 mr-8">ITA</a>
+    <a href="/" class="lang base-text text-style-3 mr-8">ENG</a>
   </header>
 </template>
 
@@ -45,6 +45,7 @@
   0%,
   100% {
     --display: block;
+    --lang: none;
     --width: auto;
     mix-blend-mode: normal;
     padding: 2rem;
@@ -58,6 +59,10 @@
 
 .logo {
   display: var(--display, none);
+}
+
+.lang {
+  display: var(--lang, block);
 }
 
 .nav-items {

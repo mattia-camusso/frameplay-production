@@ -24,10 +24,7 @@ export default defineNuxtConfig({
   alias: {
     "@": resolve(__dirname, "/"),
   },
-  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/strapi"],
-  strapi: {
-    url: "http://localhost:1337",
-  },
+  modules: ["@nuxtjs/tailwindcss"],
   /*   ui: {
     global: true,
   }, */

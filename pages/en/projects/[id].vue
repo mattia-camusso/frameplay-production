@@ -1,5 +1,5 @@
 <template>
-  <HeaderOther></HeaderOther>
+  <EnHeaderOther></EnHeaderOther>
   <img
     class="w-full absolute object-cover h-[40vh] md:h-[80vh] bg-overlay-dark"
     :src="currentProject.pic[2]"
@@ -17,10 +17,10 @@
     class="px-8 md:px-12 flex flex-col text-center my-24 gap-12 md:gap-24"
   >
     <h2 class="text-c-1 text-wrap text-style-1 font-medium">
-      {{ currentProject.description.toUpperCase() }}
+      {{ currentProject.en.description.toUpperCase() }}
     </h2>
-    <p class="text-style-4">{{ currentProject.par1 }}</p>
-    <p class="text-style-4">{{ currentProject.par2 }}</p>
+    <p class="text-style-4">{{ currentProject.en.par1 }}</p>
+    <p class="text-style-4">{{ currentProject.en.par2 }}</p>
   </article>
 
   <div
@@ -66,7 +66,7 @@
     <div>
       <p class="text-style-4">{{ currentProject.en.par3 }}</p>
       <p v-if="currentProject.link" class="text-style-4 mt-12">
-        Link al lavoro:
+        Link to the work:
         <a
           :href="currentProject.link"
           class="hover:text-c-4 transition-all ease-linear"
