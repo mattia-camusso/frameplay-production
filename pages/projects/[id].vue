@@ -64,7 +64,7 @@
       alt=""
     />
     <div>
-      <p class="text-style-4">{{ currentProject.en.par3 }}</p>
+      <p class="text-style-4">{{ currentProject.par3 }}</p>
       <p v-if="currentProject.link" class="text-style-4 mt-12">
         Link al lavoro:
         <a
