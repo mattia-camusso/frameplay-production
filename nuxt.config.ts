@@ -24,7 +24,7 @@ export default defineNuxtConfig({
   alias: {
     "@": resolve(__dirname, "/"),
   },
-  modules: ["@nuxtjs/tailwindcss"],
+  modules: ["@nuxtjs/tailwindcss", "@pinia/nuxt"],
   /*   ui: {
     global: true,
   }, */

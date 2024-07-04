@@ -1,18 +1,21 @@
 <template>
-  <header class="header">
-    <a href="/en">
+  <header class="header mx-4 md:mx-0">
+    <a href="/">
       <img
         src="../../assets/logo.svg"
-        class="md:h-16 hidden md:block logo"
+        class="md:h-16 h-8 flex md:hidden logo"
         alt="Frameplay Production Logo"
       />
     </a>
-    <nav class="nav-items gap-12 2xl:gap-24 flex justify-center">
-      <a href="/en/" class="item base-text text-style-3">PROJECTS</a>
-      <a href="/en/about" class="item base-text text-style-3">ABOUT</a>
-      <a href="/en/contacts" class="item base-text text-style-3">CONTACTS</a>
+    <nav class="nav-items gap-12 2xl:gap-24 hidden md:flex justify-center">
+      <a href="/" class="item base-text text-style-3">PROJECTS</a>
+      <a href="/about" class="item base-text text-style-3">ABOUT</a>
+      <a href="/contatti" class="item base-text text-style-3">CONTACTS</a>
     </nav>
-    <a href="/" class="hidden md:block lang base-text text-style-3 mr-8">ENG</a>
+    <a href="/en" class="lang hidden md:block base-text text-style-3 mr-8"
+      >ITA</a
+    >
+    <MenuSvg class="md:hidden block base-text text-style-3"></MenuSvg>
   </header>
 </template>
 
@@ -39,6 +42,13 @@
       animation-range-end: 210vh;
     }
   }
+
+  .logo {
+    display: var(--display, none);
+  }
+  .lang {
+    display: var(--lang, block);
+  }
 }
 
 @keyframes stickyNav {
@@ -55,14 +65,6 @@
     background-color: var(--color-overlay-dark);
     top: 0rem;
   }
-}
-
-.logo {
-  display: var(--display, none);
-}
-
-.lang {
-  display: var(--lang, block);
 }
 
 .nav-items {

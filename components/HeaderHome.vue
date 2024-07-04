@@ -1,20 +1,21 @@
 <template>
-  <header class="header">
+  <header class="header mx-4 md:mx-0">
     <a href="/">
       <img
         src="../assets/logo.svg"
-        class="md:h-16 hidden md:block logo"
+        class="md:h-16 h-8 flex md:hidden logo"
         alt="Frameplay Production Logo"
       />
     </a>
-    <nav class="nav-items gap-12 2xl:gap-24 flex justify-center">
+    <nav class="nav-items gap-12 2xl:gap-24 hidden md:flex justify-center">
       <a href="/" class="item base-text text-style-3">LAVORI</a>
       <a href="/about" class="item base-text text-style-3">ABOUT</a>
       <a href="/contatti" class="item base-text text-style-3">CONTATTI</a>
     </nav>
-    <a href="/en" class="hidden md:block lang base-text text-style-3 mr-8"
+    <a href="/en" class="lang hidden md:block base-text text-style-3 mr-8"
       >ITA</a
     >
+    <MenuSvg class="md:hidden block base-text text-style-3"></MenuSvg>
   </header>
 </template>
 
@@ -41,12 +42,20 @@
       animation-range-end: 210vh;
     }
   }
+
+  .logo {
+    display: var(--display, none);
+  }
+  .lang {
+    display: var(--lang, block);
+  }
 }
 
 @keyframes stickyNav {
   0%,
   100% {
     --display: block;
+    --lang: none;
     --width: auto;
     mix-blend-mode: normal;
     padding: 2rem;
@@ -56,10 +65,6 @@
     background-color: var(--color-overlay-dark);
     top: 0rem;
   }
-}
-
-.logo {
-  display: var(--display, none);
 }
 
 .nav-items {

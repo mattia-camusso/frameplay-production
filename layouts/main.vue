@@ -1,4 +1,5 @@
 <template>
+  <Menu></Menu>
   <HeaderHome></HeaderHome>
   <slot />
 </template>
