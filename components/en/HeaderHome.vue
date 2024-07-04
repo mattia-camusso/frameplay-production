@@ -12,7 +12,7 @@
       <a href="/en/about" class="item base-text text-style-3">ABOUT</a>
       <a href="/en/contacts" class="item base-text text-style-3">CONTACTS</a>
     </nav>
-    <a href="/" class="lang base-text text-style-3 mr-8">ENG</a>
+    <a href="/" class="lang base-text text-style-3 mr-8 md:block hidden">ENG</a>
   </header>
 </template>
 
