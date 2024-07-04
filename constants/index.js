@@ -254,7 +254,7 @@ export const projects = [
   },
   {
     id: "davvero-casa",
-    title: "DavveroCasa",
+    title: "Davvero Casa",
     fullTitle: "FramePlay x DavveroCasa",
     description: "Realizzazione video per annunci immobiliari",
     aspectRatio: "16/9",

@@ -11,13 +11,11 @@
       />
     </a>
     <nav class="nav-items gap-12 2xl:gap-24 hidden md:flex justify-center">
-      <a href="/" class="item base-text text-style-3">PROJECTS</a>
-      <a href="/about" class="item base-text text-style-3">ABOUT</a>
-      <a href="/contatti" class="item base-text text-style-3">CONTACTS</a>
+      <a href="/en" class="item base-text text-style-3">PROJECTS</a>
+      <a href="/en/about" class="item base-text text-style-3">ABOUT</a>
+      <a href="/en/contacts" class="item base-text text-style-3">CONTACTS</a>
     </nav>
-    <a href="/en" class="lang hidden md:block base-text text-style-3 mr-8"
-      >ITA</a
-    >
+    <a href="/" class="lang hidden md:block base-text text-style-3 mr-8">ITA</a>
     <MenuSvg class="md:hidden block base-text text-style-3"></MenuSvg>
   </header>
 </template>

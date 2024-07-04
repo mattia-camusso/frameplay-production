@@ -16,7 +16,7 @@
       <a href="/contatti" class="item base-text text-style-3">CONTATTI</a>
     </nav>
     <a href="/en" class="lang hidden md:block base-text text-style-3 mr-8"
-      >ITA</a
+      >ENG</a
     >
     <MenuSvg class="md:hidden block base-text text-style-3"></MenuSvg>
   </header>
