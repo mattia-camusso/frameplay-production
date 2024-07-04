@@ -69,6 +69,7 @@
         Link al lavoro:
         <a
           :href="currentProject.link"
+          target="_blank"
           class="hover:text-c-4 transition-all ease-linear"
           >{{ currentProject.link }}</a
         >

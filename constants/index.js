@@ -1,7 +1,7 @@
 export const projects = [
   {
-    id: "amazon-photo",
-    title: "Amazon Photo",
+    id: "amazon-photos",
+    title: "Amazon Photos",
     fullTitle: "FramePlay x Amazon Photos",
     description: "UGC per campagne pubblicitarie Amazon Photos",
     aspectRatio: "9/16",
