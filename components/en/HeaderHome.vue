@@ -1,5 +1,8 @@
 <template>
-  <header class="header mx-4 md:mx-0">
+  <header
+    :class="store.menuToggle ? 'top-0' : 'top-[-5rem]'"
+    class="header mx-4 md:mx-0"
+  >
     <a href="/">
       <img
         src="../../assets/logo.svg"
@@ -19,7 +22,11 @@
   </header>
 </template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import { useMainStore } from "~/stores/myStore";
+
+const store = useMainStore();
+</script>
 
 <style scoped>
 .header {
@@ -28,7 +35,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  top: -5rem;
   z-index: 1000;
   mix-blend-mode: exclusion;
 }
