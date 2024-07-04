@@ -17,13 +17,8 @@
         <article
           class="base-text text-center md:text-left leading-snug w-4/5 md:w-[30%] lg:w-1/4"
         >
-          Sezione chi siamo, da inserire un breve paragrafo autobiografico su
-          frameplay production. Nulla di troppo elaborato, giusto una
-          descrizione sintetica sulla storia dell’azienda e la sua filosofia
-          lavorativa. Sezione chi siamo, da inserire un breve paragrafo
-          autobiografico su frameplay production. Nulla di troppo elaborato,
-          giusto una descrizione sintetica sulla storia dell’azienda e la sua
-          filosofia lavorativa.
+          Gabriele Siri Videomaker, drone pilot, colorist <br />
+          'Danilo Calabrese, senior editor, motion graphics'
         </article>
       </div>
     </div>

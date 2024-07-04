@@ -10,7 +10,7 @@
     <nav class="nav-items gap-12 2xl:gap-24 flex justify-center">
       <a href="/en/" class="item base-text text-style-3">PROJECTS</a>
       <a href="/en/about" class="item base-text text-style-3">ABOUT</a>
-      <a href="/en/contatti" class="item base-text text-style-3">CONTACTS</a>
+      <a href="/en/contacts" class="item base-text text-style-3">CONTACTS</a>
     </nav>
     <a href="/" class="lang base-text text-style-3 mr-8">ENG</a>
   </header>

@@ -12,7 +12,7 @@
     <div class="flex header 2xl:gap-24 gap-12">
       <a href="/en" class="item base-text text-style-3">PROJECTS</a>
       <a href="/en/about" class="item base-text text-style-3">ABOUT</a>
-      <a href="/en/contatti" class="item base-text text-style-3">CONTACTS</a>
+      <a href="/en/contacts" class="item base-text text-style-3">CONTACTS</a>
     </div>
   </nav>
 </template>
