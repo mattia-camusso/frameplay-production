@@ -193,7 +193,7 @@ export const projects = [
     pic: [
       "/IdealGlass/IdealGlass10.png",
       "/IdealGlass/IdealGlass20.png",
-      "/IdealGlass/IdealGlass30.png",
+      "/IdealGlass/idealglass.png",
     ],
     par1: "IdealGlass è un'azienda di Forlì che si occupa della costruzione e del montaggio di vetrate panoramiche e molto altro",
     par2: "Il lavoro è consistito nel creare diversi video da utilizzare come advertising sulle piattaforme social in modo tale da permettere al brand di raggiungere nuovi potenziali clienti.",
