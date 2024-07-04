@@ -15,10 +15,21 @@
           alt=""
         />
         <article
-          class="base-text text-center md:text-left leading-snug w-4/5 md:w-[30%] lg:w-1/4"
+          class="base-text text-center text-balance md:text-left leading-snug w-4/5 md:w-[40%]"
         >
-          Gabriele Siri Videomaker, drone pilot, colorist <br />
-          'Danilo Calabrese, senior editor, motion graphics'
+          Siamo la FramePlayProduction, la vostra agenzia di produzione video di
+          fiducia. Trasformiamo le vostre idee in video straordinari, offrendo
+          servizi di alta qualità per raccontare la vostra storia il potere
+          visivo. Dal concept alla post-produzione, siamo qui per dare vita ai
+          tuoi progetti con creatività e professionalità
+          <p class="pt-8">
+            <span class="font-bold"> Gabriele Siri </span>
+            Videomaker, Drone Pilot, Colorist
+          </p>
+          <p class="pt-8">
+            <span class="font-bold"> Danilo Calabrese </span>
+            Senior Editor, Motion Graphics
+          </p>
         </article>
       </div>
     </div>

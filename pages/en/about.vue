@@ -15,15 +15,21 @@
           alt=""
         />
         <article
-          class="base-text text-center md:text-left leading-snug w-4/5 md:w-[30%] lg:w-1/4"
+          class="base-text text-center text-balance md:text-left leading-snug w-4/5 md:w-[40%]"
         >
-          Sezione chi siamo, da inserire un breve paragrafo autobiografico su
-          frameplay production. Nulla di troppo elaborato, giusto una
-          descrizione sintetica sulla storia dell’azienda e la sua filosofia
-          lavorativa. Sezione chi siamo, da inserire un breve paragrafo
-          autobiografico su frameplay production. Nulla di troppo elaborato,
-          giusto una descrizione sintetica sulla storia dell’azienda e la sua
-          filosofia lavorativa.
+          We are FramePlayProduction, your video production agency trust. We
+          turn your ideas into amazing videos by delivering High-quality
+          services to tell your story the power visual. From concept to
+          post-production, we are here to bring the your projects with
+          creativity and professionalism
+          <p class="pt-8">
+            <span class="font-bold"> Gabriele Siri </span>
+            Videomaker, Drone Pilot, Colorist
+          </p>
+          <p class="pt-8">
+            <span class="font-bold"> Danilo Calabrese </span>
+            Senior Editor, Motion Graphics
+          </p>
         </article>
       </div>
     </div>
