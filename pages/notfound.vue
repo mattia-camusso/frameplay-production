@@ -12,7 +12,7 @@
         <h1 class="text-style-1 leading-relaxed font-semibold text-c-1 pb-6">
           PAGINA NON TROVATA
         </h1>
-        <MainButton link="/">TORNA ALLA HOME</MainButton>
+        <MainButton link="/">HOMEPAGE</MainButton>
       </div>
     </div>
   </div>

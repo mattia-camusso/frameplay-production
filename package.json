@@ -15,5 +15,11 @@
     "sass": "^1.77.5",
     "vue": "^3.3.8",
     "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@nuxtjs/strapi": "^1.12.0",
+    "@pinia/nuxt": "^0.5.1",
+    "@storyblok/nuxt": "^6.0.10",
+    "pinia": "^2.1.7"
   }
 }

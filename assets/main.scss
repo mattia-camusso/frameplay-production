@@ -10,7 +10,8 @@
   --color-2: #060606;
   --color-3: #808080;
   --color-4: #eb9412;
-  --color-overlay: rgba(6, 6, 6, 0.4);
+  --color-overlay: #06060666;
+  --color-overlay-dark: #060606cc;
 }
 
 * {
@@ -21,12 +22,19 @@
 @layer base {
   body {
     @apply font-sans text-base;
+    background-color: var(--color-2);
+    color: var(--color-1);
     font-weight: 400;
     scrollbar-width: thin;
     line-height: normal;
     scrollbar-base-color: var(--color-3);
     scrollbar-color: var(--color-2) transparent;
   }
+}
+
+.base-text {
+  @apply tracking-wide;
+  @apply font-semibold;
 }
 
 .text-style-1 {
@@ -52,6 +60,16 @@
 
 .text-style-bigger {
   font-size: clamp(3rem, 7vw, 7vw);
+}
+
+.bg-overlay {
+  border-image: fill 1
+    linear-gradient(var(--color-overlay), var(--color-overlay));
+}
+
+.bg-overlay-dark {
+  border-image: fill 1
+    linear-gradient(var(--color-overlay-dark), var(--color-overlay-dark));
 }
 
 ::-webkit-scrollbar {

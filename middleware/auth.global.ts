@@ -4,6 +4,7 @@ export default defineNuxtRouteMiddleware((to) => {
   // Check if the `to` route exists
   if (!Object.keys(to.matched).length) {
     // Redirect to the main route if it doesn't
+    console.log(to);
     return navigateTo("/notfound");
   }
 });
