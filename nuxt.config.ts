@@ -12,6 +12,12 @@ export default defineNuxtConfig({
   seo: {
     redirectToCanonicalSiteUrl: false,
   },
+  site: {
+    url: "https://frameplayvideo.com",
+    name: "Frameplay Production",
+    description: "",
+    defaultLocale: "it", // not needed if you have @nuxtjs/i18n installed
+  },
   app: {
     head: {
       title: "Frameplay Production",
