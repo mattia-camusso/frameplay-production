@@ -56,7 +56,9 @@
     <img
       class="object-contain"
       :class="[
-        currentProject.aspectRatio === '16/9' ? 'w-[70vmax]' : 'h-[40vmax]',
+        currentProject.aspectRatio === '16/9'
+          ? 'w-[70vmax]'
+          : 'min-w-48 h-[40vmax]',
         currentProject.aspectRatio === '4/5' ? 'rounded-lg w-full' : '',
       ]"
       :src="
