@@ -9,6 +9,9 @@ export default defineNuxtConfig({
       enabled: true,
     },
   },
+  seo: {
+    redirectToCanonicalSiteUrl: false,
+  },
   app: {
     head: {
       title: "Frameplay Production",
