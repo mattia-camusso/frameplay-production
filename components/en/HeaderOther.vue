@@ -20,15 +20,6 @@
 <script lang="ts" setup></script>
 
 <style>
-.contatti {
-  widows: 100%;
-  background-image: url("../../assets/about-bg.png");
-  background-size: cover;
-  background-position: center 60%;
-  border-image: fill 1
-    linear-gradient(var(--color-overlay), var(--color-overlay));
-}
-
 .base-text {
   font-size: clamp(1rem, 1.3vw, 3.5rem);
 }

@@ -104,6 +104,15 @@
   transform: scale(1.2);
 }
 
+.about {
+  widows: 100%;
+  background-image: url("../assets/about-bg.png");
+  background-size: cover;
+  background-position: center 60%;
+  border-image: fill 1
+    linear-gradient(var(--color-overlay), var(--color-overlay));
+}
+
 .rotate-45 {
   @apply rotate-[45deg];
 }
