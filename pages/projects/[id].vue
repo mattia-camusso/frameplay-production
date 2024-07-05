@@ -36,7 +36,7 @@
       class="object-top"
       :class="[
         currentProject.aspectRatio === '16/9'
-          ? 'lg:h-[70vh] w-full'
+          ? 'lg:h-[70vh] w-full object-cover'
           : 'w-[30vw] h-full object-contain',
         ,
         `aspect-[${currentProject.aspectRatio}]`,
