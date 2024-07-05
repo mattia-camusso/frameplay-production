@@ -10,7 +10,7 @@ export const projects = [
     par1: "Amazon Photos è un servizio di archiviazione online per foto e video. Offre un piano compreso nell'abbonamento di Amazon Prime.",
     par2: "Lo scopo delle campagne pubblicitarie di Amazon Photos era quello di far conoscere a quanta più gente possibile il suo servizio di storage online per foto e video compreso nell'abbonamento di Amazon Prime.",
     par3: "Il nostro lavoro è consistito nell'utilizzare i video RAW generati dagli utenti e trasformali in contenuti accattivanti e ad alto potenziale di conversione verso gli utenti in target con la campagna pubblicitaria. La sfida principale è stata quella di creare contenuti altamente coinvolgenti che, come scopo ultimo, avessero quello del donwload dell'applicazione",
-    screen: "/Amazon/screen.png",
+    screen: "/Amazon/Screen.png",
     en: {
       description: "UGC for Amazon Photos ADV campaigns",
       par1: "Amazon Photos is an online storage service for photos and videos. It offers a plan included in the Amazon Prime subscription.",
@@ -215,7 +215,7 @@ export const projects = [
     pic: [
       "/KubeFM/KubeFM10.png",
       "/KubeFM/KubeFM20.png",
-      "/KubeFM/KubeFM30.png",
+      "/KubeFM/kubefm30.png",
     ],
     par1: "KukeFM è un podcast le cui puntate si basano sul raccontare, in maniera formativa, tutto ciò che avviene nel mondo di Kubernets.",
     par2: "Durante il KubeCon 2024 i ragazzi di KubeFM hanno prodotto svariate decine di interviste a vari amministratori o impiegati presso le più disparate aziende nel mondo di Kubernets, e si sono rivolti a noi per occuparci della parte del montaggio delle interviste.",
