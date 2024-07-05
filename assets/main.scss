@@ -32,6 +32,10 @@
   }
 }
 
+img {
+  rotate: none;
+}
+
 .base-text {
   @apply tracking-wide;
   @apply font-semibold;
