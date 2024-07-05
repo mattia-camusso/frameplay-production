@@ -33,11 +33,11 @@
   >
     <img
       v-for="pic in 3"
-      class="object-contain object-top"
+      class="object-top"
       :class="[
         currentProject.aspectRatio === '16/9'
           ? 'lg:h-[70vh] w-full'
-          : 'w-[30vw] h-full',
+          : 'w-[30vw] h-full object-contain',
         ,
         `aspect-[${currentProject.aspectRatio}]`,
       ]"
