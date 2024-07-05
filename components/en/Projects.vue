@@ -16,7 +16,7 @@
       />
       <div class="content-overlay"></div>
       <div class="content-details fadeIn-right">
-        <h2 class="text-style-4 font-black italic text-pretty mb-8">
+        <h2 class="text-style-3 font-black italic text-pretty mb-8">
           {{ project.title.toUpperCase() }}
         </h2>
       </div>
