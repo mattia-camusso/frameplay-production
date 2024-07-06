@@ -1,5 +1,4 @@
 <template>
-  <EnHeaderOther></EnHeaderOther>
   <img
     class="w-full absolute object-cover h-[40vh] md:h-[80vh] bg-overlay-dark"
     :src="currentProject.pic[2]"
@@ -86,6 +85,7 @@ import { useRoute } from "vue-router";
 
 definePageMeta({
   middleware: ["projects"],
+  layout: "en-other",
 });
 
 const route = useRoute();

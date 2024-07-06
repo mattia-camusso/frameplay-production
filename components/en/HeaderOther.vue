@@ -1,19 +1,20 @@
 <template>
   <nav
-    class="absolute bg-c-5 flex items-center justify-center sm:justify-between z-5 p-8 md:px-10 top-0 left-0 w-[100vw]"
+    class="absolute bg-c-5 flex items-center justify-center sm:justify-between z-50 p-8 md:px-10 top-0 left-0 w-[100vw]"
   >
     <a href="/en">
       <img
         src="../../assets/logo.svg"
-        class="md:h-16 h-8 hidden sm:block"
+        class="md:h-16 h-8"
         alt="Frameplay Production Logo"
       />
     </a>
-    <div class="flex header 2xl:gap-24 gap-12">
+    <div class="md:flex header hidden 2xl:gap-24 gap-12">
       <a href="/en" class="item base-text text-style-3">PROJECTS</a>
       <a href="/en/about" class="item base-text text-style-3">ABOUT</a>
       <a href="/en/contacts" class="item base-text text-style-3">CONTACTS</a>
     </div>
+    <MenuSvg class="md:hidden block base-text text-style-3"></MenuSvg>
   </nav>
 </template>
 

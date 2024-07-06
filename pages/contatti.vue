@@ -1,5 +1,4 @@
 <template>
-  <HeaderOther></HeaderOther>
   <main
     class="flex flex-col items-center justify-between contatti backdrop-blur-lg"
   >
@@ -43,7 +42,11 @@
   </main>
 </template>
 
-<script lang="ts" setup></script>
+<script setup>
+definePageMeta({
+  layout: "other",
+});
+</script>
 
 <style scoped>
 .contatti {

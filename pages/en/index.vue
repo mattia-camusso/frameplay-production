@@ -7,9 +7,9 @@
   <EnFooter></EnFooter>
 </template>
 
-<script setup lang="ts">
+<script setup>
 definePageMeta({
-  layout: "en",
+  layout: "en-home",
 });
 </script>
 

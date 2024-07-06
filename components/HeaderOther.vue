@@ -1,19 +1,20 @@
 <template>
   <nav
-    class="absolute bg-c-5 flex items-center justify-center sm:justify-between z-5 p-8 md:px-10 top-0 left-0 w-[100vw]"
+    class="absolute bg-c-5 flex items-center justify-center sm:justify-between z-50 p-8 md:px-10 top-0 left-0 w-[100vw]"
   >
     <a href="/">
       <img
         src="../assets/logo.svg"
-        class="md:h-16 h-8 hidden sm:block"
+        class="md:h-16 h-8"
         alt="Frameplay Production Logo"
       />
     </a>
-    <div class="flex header 2xl:gap-24 gap-12">
+    <div class="md:flex header hidden 2xl:gap-24 gap-12">
       <a href="/" class="item base-text text-style-3">LAVORI</a>
       <a href="/about" class="item base-text text-style-3">ABOUT</a>
       <a href="/contatti" class="item base-text text-style-3">CONTATTI</a>
     </div>
+    <MenuSvg class="md:hidden block base-text text-style-3"></MenuSvg>
   </nav>
 </template>
 
@@ -34,7 +35,6 @@
   display: block;
   text-decoration: none;
   transition: all 400ms var(--cubic-bezier);
-  mix-blend-mode: exclusion;
 }
 
 .item::after {

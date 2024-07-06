@@ -1,29 +1,50 @@
 <template>
-  <div id="menu" :class="store.menuToggle ? 'h-full' : 'h-0'">
+  <div
+    id="menu"
+    :class="[store.menuToggle ? 'h-full' : 'h-0', dark ? 'bg-c-2' : 'bg-c-1']"
+  >
     <div id="menu-items" ref="menuItems">
       <div
         class="menu-item text-style-big font-semibold"
-        :class="store.menuToggle ? 'opacity-100' : 'opacity-0'"
+        :class="[
+          store.menuToggle ? 'opacity-100' : 'opacity-0',
+          dark ? 'text-c-1' : 'text-c-2',
+        ]"
       >
-        <a href="/">LAVORI</a>
+        <a :href="en ? '/en' : '/'">{{ en ? "PROJECTS" : "LAVORI" }}</a>
       </div>
       <div
         class="menu-item text-style-big font-semibold"
-        :class="store.menuToggle ? 'opacity-100' : 'opacity-0'"
+        :class="[
+          store.menuToggle ? 'opacity-100' : 'opacity-0',
+          dark ? 'text-c-1' : 'text-c-2',
+        ]"
       >
-        <a href="/about">ABOUT</a>
+        <a :href="en ? '/en/about' : '/about'">ABOUT</a>
       </div>
       <div
         class="menu-item text-style-big font-semibold"
-        :class="store.menuToggle ? 'opacity-100' : 'opacity-0'"
+        :class="[
+          store.menuToggle ? 'opacity-100' : 'opacity-0',
+          dark ? 'text-c-1' : 'text-c-2',
+        ]"
       >
-        <a @click="store.toggleMenu()" href="/contatti">CONTATTI</a>
+        <a
+          @click="store.toggleMenu()"
+          :href="en ? '/en/contacts' : '/contatti'"
+          >{{ en ? "CONTACTS" : "CONTATTI" }}</a
+        >
       </div>
       <div
         class="menu-item text-style-big font-semibold"
-        :class="store.menuToggle ? 'opacity-100' : 'opacity-0'"
+        :class="[
+          store.menuToggle ? 'opacity-100' : 'opacity-0',
+          dark ? 'text-c-1' : 'text-c-2',
+        ]"
       >
-        <a @click="store.toggleMenu()" href="/en">ENG</a>
+        <a @click="store.toggleMenu()" :href="en ? '/' : '/en'">
+          {{ en ? "ITA" : "ENG" }}
+        </a>
       </div>
     </div>
   </div>
@@ -33,6 +54,10 @@
 import { useMainStore } from "../stores/myStore";
 
 const store = useMainStore();
+defineProps({
+  dark: Boolean,
+  en: Boolean,
+});
 </script>
 
 <style lang="scss" scoped>
@@ -44,7 +69,6 @@ const store = useMainStore();
   right: 0;
 
   margin: 0;
-  @apply bg-c-1;
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -64,7 +88,6 @@ const store = useMainStore();
 
 .menu-item {
   cursor: pointer;
-  @apply text-c-2;
   width: fit-content;
   display: block;
   text-decoration: none;

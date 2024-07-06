@@ -1,5 +1,5 @@
 <template>
-  <EnMenu></EnMenu>
+  <Menu en></Menu>
   <EnHeaderHome></EnHeaderHome>
   <slot />
 </template>
