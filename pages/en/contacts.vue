@@ -50,7 +50,7 @@ definePageMeta({
 
 <style scoped>
 .contatti {
-  height: 100vh;
+  height: 100svh;
   widows: 100%;
   background-image: url("../../assets/contatti-bg.png");
   background-size: cover;
