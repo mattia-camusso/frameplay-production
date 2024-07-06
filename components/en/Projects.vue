@@ -9,6 +9,7 @@
       class="img-container cursor-pointer contento"
     >
       <img
+        loading="lazy"
         :src="project.cover"
         :alt="project.title"
         :class="`aspect-[${project.aspectRatio}]`"
