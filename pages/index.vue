@@ -1,5 +1,5 @@
 <template>
-  <video autoplay muted loop class="video lg:absolute lg:top-0">
+  <video autoplay muted loop playsinline class="video lg:absolute lg:top-0">
     <source src="../assets/hero.mp4" type="video/mp4" />
   </video>
   <div class="lg:aspect-video lg:w-full"></div>
