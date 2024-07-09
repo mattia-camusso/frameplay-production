@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="absolute bg-c-5 flex items-center justify-center sm:justify-between z-50 p-8 md:px-10 top-0 left-0 w-[100vw]"
+    class="absolute bg-c-5 flex items-center justify-center sm:justify-between z-50 p-4 sm:p-8 md:px-10 top-0 left-0 w-[100vw]"
   >
     <a href="/en">
       <img

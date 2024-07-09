@@ -10,11 +10,11 @@
         ABOUT US
       </h2>
       <article
-        class="text-style-3 px-8 font-medium text-center text-pretty leading-snug"
+        class="text-style-3 px-4 sm:px-8 font-medium md:text-center text-pretty leading-snug"
       >
-        We are FramePlayProduction, your video production agency trust. We turn
-        your ideas into amazing videos by delivering High-quality services to
-        tell your story the power visual. From concept to post-production, we
+        We are Frame Play Production, your video production agency trust. We
+        turn your ideas into amazing videos by delivering High-quality services
+        to tell your story the power visual. From concept to post-production, we
         are here to bring the your projects with creativity and professionalism
       </article>
       <div class="my-16 flex flex-col md:flex-row gap-[5vmax]">
@@ -24,7 +24,7 @@
             class="h-[25vmax] aspect-[5/4] object-cover rounded-md block"
             alt=""
           />
-          <p class="pt-8 px-8 text-center text-pretty text-style-3">
+          <p class="pt-8 px-4 sm:px-8 text-center text-pretty text-style-3">
             <span class="font-bold"> Gabriele Siri </span>
             Videomaker, Drone Pilot, Colorist
           </p>
@@ -35,7 +35,7 @@
             class="h-[25vmax] aspect-[5/4] object-cover rounded-md block"
             alt=""
           />
-          <p class="pt-8 px-8 text-center text-pretty text-style-3">
+          <p class="pt-8 px-4 sm:px-8 text-center text-pretty text-style-3">
             <span class="font-bold"> Danilo Calabrese </span>
             Senior Editor, Motion Graphics
           </p>

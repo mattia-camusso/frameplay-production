@@ -6,7 +6,7 @@
       class="h-full w-full flex flex-grow flex-col items-center justify-between py-8"
     >
       <div class="h-1/6"></div>
-      <div class="flex flex-col items-center gap-8">
+      <div class="flex flex-col items-center gap-4 md:gap-8">
         <h3 class="text-c-3 font-medium text-style-4">EMAIL</h3>
         <a href="mailto:production@frameplayvideo.com" target="_blank">
           <h3 class="text-style-4 item">Production@FramePlayvideo.com</h3>
